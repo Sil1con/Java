@@ -1,0 +1,28 @@
+I intend to write code for programming coffee machines using several advantages of Java (Interfaces, Abstract classes)
+
+CLASS CoffeeMachine will be a blueprint for different types of coffee machines.
+I must declare several main behaviours:
+    DECLARE method makeCoffee()
+    DECLARE method makeTea()
+
+I am going to create abstract class Coffee in order to make more specific classes based on different types of coffee.
+The same situation with abstract class Tea.
+
+ABSTRACT class Coffee
+    DECLARE private var. int sizeOfCap
+    DECLARE private var. int sugarAmount
+    DECLARE default method setSize(int userInput)
+    DECLARE default setSugarAmount(int userInput)
+    DECLARE default getSugarAmount()
+    DECLARE default getSize()
+
+ABSTRACT class Tea
+    DECLARE private var. int sizeOfCap
+    DECLARE private var. int sugarAmount
+    DECLARE default method setSize(int userInput)
+    DECLARE default setSugarAmount(int userInput)
+    DECLARE default getSugarAmount()
+    DECLARE default getSize()
+
+I think it is better to add a new class, where all the interactions with user will be realized.
+The class WorkCoffeeMachine
