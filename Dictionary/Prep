@@ -1,0 +1,28 @@
+I want to write a program that will give me opportunities:
+    1) Save new words in a file
+    2) Repetition of words
+    3) Show words of the session
+
+What should I have:
+    1) The main class Dictionary - it will hold lines
+    2) The class Line - it will hold the words
+
+The idea of having Dictionary is
+    1) Save a whole dictionary, consists of lines, in a file
+        1.1) The dictionary will be being processed in order to create a game with a repetition of words
+    2) The Dictionary will consist of words from an additional file
+    3) It is easier in further work with a method for repetition of words. I can leverage a size of an ArrayList and use rand for lines
+
+What should I have inside a Dictionary
+    1) A method that starts a program
+    2) A method that prints a whole dictionary
+    3) A method that saves words in a dictionary
+        3.1) The method will have a local var. an ArrayList<String> - it will hold words
+    4) An instance variable ArrayList<Line> - it will hold lines
+    5) A method that helps repeat words
+        What should I have:
+            5.1) A random number
+            5.2) User limit
+            5.2) An ArrayList for comparison of words
+            5.3) An ArrayList for wrong words
+
