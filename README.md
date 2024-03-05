@@ -1,2 +1,2 @@
 Hi!
-There are the projects in branches
+In "branches" there are the projects.
